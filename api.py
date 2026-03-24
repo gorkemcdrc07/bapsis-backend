@@ -1,4 +1,4 @@
-from fastapi import FastAPI, UploadFile, File, Form
+﻿from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import pandas as pd
@@ -15,9 +15,8 @@ ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://YOUR-FRONTEND-PROJECT.vercel.app",
+    "https://bapsis-l83b.vercel.app",  # 🔥 BURAYI EKLE
 ]
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=ALLOWED_ORIGINS,
